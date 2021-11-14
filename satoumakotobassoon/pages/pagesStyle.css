@@ -1,0 +1,49 @@
+/*google font for main font */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+
+body{
+    background-color: #312736;
+}
+
+#mainFont {
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #c4ffeb;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+/* info page slider */
+
+.gazou{
+    margin: 0 auto;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.slick-next{
+    right:0!important;
+  }
+  .slick-prev{
+    left:0!important;
+  }
+  .slick-arrow{
+    z-index:2!important;
+  }
